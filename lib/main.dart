@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
       child: MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Curso Flutter',
         home: PlatziTripsCupertino(),
       ),
       bloc: UserBloc(),

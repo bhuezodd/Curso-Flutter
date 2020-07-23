@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "134946234331",
+    "firebase_url": "https://curso-platzi-flutter.firebaseio.com",
+    "project_id": "curso-platzi-flutter",
+    "storage_bucket": "curso-platzi-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134946234331:android:4754c1522f460abd8691fe",
+        "android_client_info": {
+          "package_name": "com.bhuezo.curso_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134946234331-cqppi1i9i3q8elri1j8o2004j7fcj4g6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCALJ92vR-PSMM1QnqwFM0c9wcuKwr1ZvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134946234331-cqppi1i9i3q8elri1j8o2004j7fcj4g6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
