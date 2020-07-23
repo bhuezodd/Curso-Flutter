@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:platzi_trips_app/Place/ui/widgets/card_image_list.dart';
-import 'package:platzi_trips_app/Widgets/gradient_back.dart';
+import 'package:curso_flutter/Place/ui/widgets/card_image_list.dart';
+import 'package:curso_flutter/Widgets/gradient_back.dart';
 
 class HeaderAppBar extends StatelessWidget {
   @override

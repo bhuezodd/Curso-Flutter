@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:platzi_trips_app/Place/modal/place.dart';
+import 'package:curso_flutter/Place/modal/place.dart';
 import 'profile_place_info.dart';
 import 'profile_place.dart';
 

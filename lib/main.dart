@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
-import 'package:platzi_trips_app/User/bloc/bloc_user.dart';
+import 'package:curso_flutter/User/bloc/bloc_user.dart';
 import 'platzi_trips_cupertino.dart';
 
 void main() => runApp(MyApp());

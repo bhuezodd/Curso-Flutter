@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:platzi_trips_app/Place/modal/place.dart';
-import 'package:platzi_trips_app/Widgets/floating_action_button_green.dart';
+import 'package:curso_flutter/Place/modal/place.dart';
+import 'package:curso_flutter/Widgets/floating_action_button_green.dart';
 
 class ProfilePlaceInfo extends StatelessWidget {
   Place place;
