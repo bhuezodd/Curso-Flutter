@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "134946234331-gqeft4unod3c6qvqt7tbp28ndqg6lv8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bhuezo.curso_flutter",
+            "certificate_hash": "2b00a5f0cd7fa4276b7c09fb692557ec1b47a7b0"
+          }
+        },
+        {
           "client_id": "134946234331-cqppi1i9i3q8elri1j8o2004j7fcj4g6.apps.googleusercontent.com",
           "client_type": 3
         }
