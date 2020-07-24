@@ -4,15 +4,17 @@ import 'profile_place.dart';
 
 class ProfilePlacesList extends StatelessWidget {
   Place place = new Place(
-      'Knuckles Mountains Range',
-      'Hiking. Water fall hunting. Natural bath',
-      'Scenery & Photography',
-      '123,123,123');
+    name: 'Knuckles Mountains Range',
+    description: 'Hiking. Water fall hunting. Natural bath',
+    urlImage: 'Scenery & Photography',
+    likes: 123,
+  );
   Place place2 = new Place(
-      'Mountains',
-      'Hiking. Water fall hunting. Natural bath',
-      'Scenery & Photography',
-      '321,321,321');
+    name: 'Knuckles Mountains Range',
+    description: 'Hiking. Water fall hunting. Natural bath',
+    urlImage: 'Scenery & Photography',
+    likes: 12,
+  );
 
   @override
   Widget build(BuildContext context) {
