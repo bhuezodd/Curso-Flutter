@@ -1,3 +1,4 @@
+import 'package:curso_flutter/Place/modal/place.dart';
 import 'package:curso_flutter/User/modal/user.dart';
 import 'package:curso_flutter/User/repository/cloud_firestore_repository.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -20,14 +21,16 @@ class UserBloc implements Bloc {
     return _auth_repository.signInFirebase();
   }
 
+  signOut() => _auth_repository.signOut();
+
   final _cloudFirestoreRepository = CloudFirestoreRepository();
 
   void updateUserData(User user) =>
       _cloudFirestoreRepository.updateUserDataFirestore(user);
 
-  signOut() {
-    _auth_repository.signOut();
-  }
+  // Submit data
+  Future<void> updatePlaceData(Place place) =>
+      _cloudFirestoreRepository.updatePlaceData(place);
 
   @override
   void dispose() {}

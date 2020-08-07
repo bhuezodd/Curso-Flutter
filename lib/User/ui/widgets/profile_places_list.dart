@@ -8,12 +8,14 @@ class ProfilePlacesList extends StatelessWidget {
     description: 'Hiking. Water fall hunting. Natural bath',
     urlImage: 'Scenery & Photography',
     likes: 123,
+    userOwner: null,
   );
   Place place2 = new Place(
     name: 'Knuckles Mountains Range',
     description: 'Hiking. Water fall hunting. Natural bath',
     urlImage: 'Scenery & Photography',
     likes: 12,
+    userOwner: null,
   );
 
   @override

@@ -1,3 +1,4 @@
+import 'package:curso_flutter/Place/ui/screens/add_place.dart';
 import 'package:curso_flutter/User/bloc/bloc_user.dart';
 import 'package:flutter/material.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
@@ -27,7 +28,12 @@ class ButtonsBar extends StatelessWidget {
               Icons.add,
               40.0,
               Color.fromRGBO(255, 255, 255, 1),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    new MaterialPageRoute(
+                        builder: (context) => new AddPlace()));
+              },
             ),
             // LogOu
             CircleButton(
