@@ -68,7 +68,7 @@ class _AddPlaceState extends State<AddPlace> {
                 Container(
                   alignment: Alignment.center,
                   child: CardImageWithFab(
-                    pathImage: "assets/img/beach_palm.jpeg",
+                    pathImage: widget.img.path,
                     height: 250,
                     width: 350,
                     top: 0,

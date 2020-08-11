@@ -1,7 +1,10 @@
+import 'dart:io';
+
 import 'package:curso_flutter/Place/ui/screens/add_place.dart';
 import 'package:curso_flutter/User/bloc/bloc_user.dart';
 import 'package:flutter/material.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
+import 'package:image_picker/image_picker.dart';
 import 'circle_button.dart';
 
 class ButtonsBar extends StatelessWidget {
@@ -29,10 +32,16 @@ class ButtonsBar extends StatelessWidget {
               40.0,
               Color.fromRGBO(255, 255, 255, 1),
               onPressed: () {
-                Navigator.push(
-                    context,
-                    new MaterialPageRoute(
-                        builder: (context) => new AddPlace()));
+                ImagePicker.pickImage(source: ImageSource.camera)
+                    .then((value) => {
+                          Navigator.push(
+                              context,
+                              new MaterialPageRoute(
+                                  builder: (context) => new AddPlace(
+                                        img: value,
+                                      )))
+                        })
+                    .catchError((onError) => {print("erro: " + onError)});
               },
             ),
             // LogOu
